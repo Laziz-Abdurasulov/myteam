@@ -1,0 +1,161 @@
+.site-header {
+    width: 100%;
+    padding-top: 73px;
+    padding-bottom: 129px;
+    background-color: #014E56;
+}
+
+.site-header__inner {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.site-header__logo {
+    width: 100%;
+    max-width: 160px;
+    max-height: 40px;
+}
+
+.site-header__link {
+    width: 100%;
+    max-width: 153px;
+    padding-top: 9px;
+    padding-bottom: 11px;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    
+    &:hover {
+        background: #FFFFFF;
+        border-radius: 24px;
+        color: #002529;
+    }
+    
+    &:active {
+        border: 2px solid #416367;
+        color: #416367;
+        background-color: #014E56;
+    }
+}
+
+.site-header__btn {
+     
+        display: none;
+        margin-left: auto;
+        padding: 16px 0;
+        font-size: 20px;
+        border: none;
+        color: #FFFFFF;
+        background-color: transparent;
+      
+}
+
+.menu {
+    margin-right: auto;
+    margin-left: 80px;
+}
+
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    @include list-global
+}
+
+.menu__item {
+    padding: 20px;
+}
+
+
+
+.menu__link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+    &:active {
+        color: #F67E7E;
+    }
+}
+
+@include max-width(768px) {
+
+    .site-header {
+        padding-top: 64px;
+        padding-bottom: 122px;
+    }
+
+    .site-header__logo {
+        width: 100%;
+        max-width: 128px ;
+        max-height: 32px ;
+    }
+
+    .menu {
+        margin-left: 48px;
+    }
+        
+
+}
+
+@media only screen and (max-width:576px){
+    
+    .header{
+        padding-top: 48px;
+        padding-bottom: 80px;
+    }
+
+
+    .menu {
+        display: none;
+    }
+
+    .site-header__link {
+        display: none;
+    }
+    
+    
+    
+    .site-header__btn{
+        display: block;
+        
+        
+    }
+}
+
+@include max-width(375px) {
+.site-header {
+    padding-top: 48px;
+    padding-bottom: 80px;
+}
+
+    .site-header__logo {
+        width: 100%;
+        max-width: 128px ;
+        max-height: 32px ;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .site-header__link {
+        display: none;
+    }
+
+    .site-header__btn {
+        display: block;
+    }
+}
