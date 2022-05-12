@@ -19,25 +19,119 @@
                     </ol>
                 </nav>
                 <a class="site-header__link" href="#">contact us</a>
-                <button  class="site-header__btn">&#9776;</button>
+                <button class="site-header__btn">
+                    ☰
+                  </button>
+                <!-- <button class="manu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                    <svg width="100" height="100" viewBox="0 0 100 100">
+                      <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                      <path class="line line2" d="M 20,50 H 80" />
+                      <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                    </svg>
+                  </button> -->
             </div>
         </div>
     </header>
-<main>
-    <section class="hero">
-        <div class="container">
-            <div class="hero__inner">
-                <div class="hero__left">
-                    <h1 class="hero__title">Find the <br>best <strong class="hero__strong">talent</strong> </h1>
-                </div>
-
-                <div class="hero__right">
-                    <span class="hero__span"></span>
-                    <p class="hero__text">Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.</p>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__inner">
+                    <div class="hero__left">
+                        <h1 class="hero__title">Find the <br>best <strong class="hero__strong">talent</strong> </h1>
+                    </div>
+                    
+                    <div class="hero__right">
+                        <span class="hero__span"></span>
+                        <p class="hero__text">Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-</main>
-</body>
-</html>
+        </section>
+        
+        <section class="build">
+            <div class="container">
+                <div class="build__inner">
+                    <div class="build__left">
+                        <span class="build__span"></span>
+                        <h2 class="build__title">Build & manage distributed teams like no one else.</h2>
+                    </div>
+                    
+                    <div class="build__right">
+                        <ul class="build__list">
+                            
+                            <li class="build__item">
+                                <img src="./images/experienced.svg" alt="Experienced Individuals picture" width="72" height="72">
+                                <div class="box">
+                                    <a class="box__link" href="#">Experienced Individuals</a>
+                                    <p class="box__text">Our network is made up of highly experienced professionals who are passionate about what they do.</p>
+                                </div>
+                            </li>
+                            
+                            <li class="build__item">
+                                <img src="./images/implement.svg" alt="Easy to Implement picture" width="72" height="72">
+                                <div class="box">
+                                    <a class="box__link" href="#">Easy to Implement</a>
+                                    <p class="box__text">Our processes have been refined over years of implementation meaning our teams always deliver.</p>
+                                </div>
+                            </li>
+                            
+                            <li class="build__item">
+                                <img src="./images/enhanced.svg" alt="Enhanced Productivity picture" width="72" height="72">
+                                <div class="box">
+                                    <a class="box__link" href="#">Enhanced Productivity</a>
+                                    <p class="box__text">Our customized platform with in-built analytics helps you manage your distributed teams.</p>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="stories">
+            <div class="container">
+                <div class="stories__inner">
+                    <div class="stories__top">
+                        <h2 class="stories__title">Delivering real results for top companies. Some of our 
+                            <strong class="stories__strong">success stories.</strong></h2>
+                        </div>
+                        <ul class="stories__list">
+                            
+                            <li class="stories__item">
+                                <p class="stories__text"> “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”</p>
+                                <strong class="stories__collor">Kady Baker</strong>
+                                <span class="stories__span">Product Manager at Bookmark</span>
+                                <img src="./images/kady-baker.png" alt="Kady Baker avatar" width="62" height="62">
+                            </li>
+                            
+                            <li class="stories__item">
+                                <p class="stories__text">“We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!”</p>
+                                <strong class="stories__collor">Aiysha Reese</strong>
+                                <span class="stories__span">Founder of Manage</span>
+                                <img src="./images/aiysha-reese.png" alt="Aiysha Reese avatar" width="62" height="62">
+                            </li>
+                            
+                            <li class="stories__item">
+                                <p class="stories__text">“Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”</p>
+                                <strong class="stories__collor">Arthur Clarke</strong>
+                                <span class="stories__span">Co-founder of MyPhysio</span>
+                                <img src="./images/arthur-clarke.png" alt="Arthur Clarke avatar" width="62" height="62">
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ready">
+                <div class="container">
+                    <div class="ready__inner">
+                        <h2 class="ready__title">Ready to get started?</h2>
+                        <a class="ready__link" href="#">contact us</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+    </html>
