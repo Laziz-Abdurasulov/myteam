@@ -1,0 +1,105 @@
+.about-ready {
+    background-color: #F67E7E;
+    padding-top: 76px;
+    padding-bottom: 76px;
+    
+    background-image: url("../images/ready-bgi.png");
+    background-repeat: no-repeat;
+    background-size: 200px 144px;
+    background-position: calc(50% - 660px) bottom;
+}
+
+.about-ready__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 917px;
+}
+
+.about-ready__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #012F34;
+}
+
+.about-ready__link {
+    width: 100%;
+    max-width: 153px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    text-decoration: none;
+    
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #012F34;
+    transition: all 0.4s ease;
+    
+    &:hover {
+        color: #FFFFFF;
+        background-color: #012F34;
+    }
+    
+    &:active {
+        color: #FFFFFF;
+        background-color: #012F34;
+    }
+}
+
+@include max-width(768px) {
+    .about-ready {
+        background-image: url("../images/ready-bgi.png");
+        background-repeat: no-repeat;
+        background-size: 200px 144px;
+        background-position: calc(50% - 283px) calc(50% + 50px);
+    }
+    
+    .about-ready__inner {
+        width: 100%;
+        max-width: 573px;
+    }
+    
+    .about-ready__title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
+
+@include max-width(376px) {
+    .about-ready {
+        padding-top: 83px;
+        padding-bottom: 83px;
+        
+        background-image: url("../images/ready-bgi.png");
+        background-repeat: no-repeat;
+        background-size: 200px 144px;
+        background-position: calc(50% - 87px) calc(50% + 104px);
+    }
+    
+    .about-ready__inner {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .about-ready__title {
+        text-align: center;
+        margin-bottom: 24px;
+        
+    }
+}
+
+
+
+
+
+
+

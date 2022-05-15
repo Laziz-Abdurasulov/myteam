@@ -1,0 +1,158 @@
+.about-footer {
+    background-color: #002529;
+    padding: 48px 0;
+}
+
+.about-footer__inner {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.about-footer_left {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 455px;
+}
+
+
+
+.about-footer__right {
+    width: 100%;
+    max-width: 255px;
+}
+
+
+
+.about-footer__list {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 25px;
+}
+
+.about-footer__item + .about-footer__item {
+    margin-left: 40px;
+}
+
+
+
+.about-footer__link {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    
+    
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.about-footer__links {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    
+    
+    
+    color: #FFFFFF;
+    text-decoration: none;
+    
+    &:hover {
+        color: #F67E7E;
+    }
+}
+
+.about-right__img {
+    color: #FFFFFF;
+    text-decoration: none;
+    
+    &:hover {
+        color: #F67E7E;
+    }
+}
+
+.about-right__list {
+    justify-content: flex-end;
+    margin: 0;
+    // margin-left: 145px;
+    padding-left: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.about-right__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.about-right__item {
+    margin-right: 16px;
+    
+    &:last-child {
+        margin-left: 0;
+    }
+}
+
+.about-right__box {
+    margin-top: 51px;
+}
+
+.about-right__link {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    
+    text-align: right;
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+
+
+
+@include max-width(768px) {
+    .about-footer__inner {
+        flex-direction: column;
+    }
+    
+    .about-footer__left {
+        width: 100%;
+        max-width: 689px;
+        justify-content: space-between;
+    }
+    
+    .about-footer__right {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    // .right__list {
+    //     justify-content: none;
+    // }
+    
+    // .right__box {
+    //     margin: 0;
+    // }
+}

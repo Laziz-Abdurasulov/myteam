@@ -1,0 +1,133 @@
+.about-clients {
+    padding: 140px;
+    padding-bottom: 140px;
+    background-color: #012F34;
+
+    background-image: url("../images/clients-bg.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 658px) top;
+}
+
+.about-clients__top {
+    width: 100%;
+    max-width: 920px;
+    margin-right: auto;
+    margin-bottom: 64px;
+    margin-left: auto;
+}
+
+.about-clients__bottom {
+    width: 100%;
+    max-width: 1110px;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.about-clients__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.about-clients__list {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: space-between;
+    padding-left: 0;
+list-style-type: none;
+}
+
+
+
+
+
+@include max-width(768px) {
+    .about-clients__item + .about-clients__item {
+        margin-right: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
